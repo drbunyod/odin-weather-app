@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div>
+      <button type="button" id="unit-switch-btn">C°/F°</button>
+      <input type="text" id="search-field" placeholder="Enter a city name" />
+      <button type="button" id="search-btn">Search</button>
+      <div id="loader" class=""></div>
+    </div>
+
+    <div>
+      <table id="today" border="1">
+        <tr>
+          <th id="w-city" colspan="2"></th>
+        </tr>
+        <tr>
+          <td><img src="#" id="w-icon" /></td>
+          <td id="w-temp"></td>
+        </tr>
+        <tr>
+          <td id="w-conditions" colspan="2"></td>
+        </tr>
+        <tr>
+          <td id="w-temp-day"></td>
+          <td id="w-temp-night"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <table id="next-days" border="1">
+        <tr>
+          <th colspan="5">Next 5 Days</th>
+        </tr>
+        <tr>
+          <td>
+            <span class="w-next-date"></span>
+            <br />
+            <img src="#" class="w-next-icon" />
+            <br />
+            <span class="w-next-day"></span>
+            <span class="w-next-night"></span>
+          </td>
+          <td>
+            <span class="w-next-date"></span>
+            <br />
+            <img src="#" class="w-next-icon" />
+            <br />
+            <span class="w-next-day"></span>
+            <span class="w-next-night"></span>
+          </td>
+          <td>
+            <span class="w-next-date"></span>
+            <br />
+            <img src="#" class="w-next-icon" />
+            <br />
+            <span class="w-next-day"></span>
+            <span class="w-next-night"></span>
+          </td>
+          <td>
+            <span class="w-next-date"></span>
+            <br />
+            <img src="#" class="w-next-icon" />
+            <br />
+            <span class="w-next-day"></span>
+            <span class="w-next-night"></span>
+          </td>
+          <td>
+            <span class="w-next-date"></span>
+            <br />
+            <img src="#" class="w-next-icon" />
+            <br />
+            <span class="w-next-day"></span>
+            <span class="w-next-night"></span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
